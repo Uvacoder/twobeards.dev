@@ -4,7 +4,7 @@ body {
   color: #42484c;
   display: flex;
   flex-direction: column;
-  font-family:-apple-system,BlinkMacSystemFont,'helvetica neue',helvetica,ubuntu,roboto,noto,'segoe ui',arial,sans-serif;
+  font-family: 'Inter', sans-serif;
   height: 100vh;
   justify-content: center;
   margin: 0;
@@ -12,10 +12,9 @@ body {
 }
 
 h2 {
-  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: 18px;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .logo {
