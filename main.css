@@ -1,0 +1,24 @@
+body {
+  align-items: center;
+  background: #fff;
+  color: #42484c;
+  display: flex;
+  flex-direction: column;
+  font-family:-apple-system,BlinkMacSystemFont,'helvetica neue',helvetica,ubuntu,roboto,noto,'segoe ui',arial,sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 18px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 1rem;
+}

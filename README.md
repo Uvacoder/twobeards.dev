@@ -1,3 +1,3 @@
 # Website
 
-This will be our public facing website.
+Our public facing website.
