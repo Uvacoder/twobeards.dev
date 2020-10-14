@@ -1,2 +1,0 @@
-[context.branch-deploy]
-    command = "make staging"
