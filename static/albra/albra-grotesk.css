@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Albra Grotesk';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Albra-Grotesk-Regular-subset.woff2") format("woff2"),
+       url("Albra-Grotesk-Regular-subset.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Albra Grotesk';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Albra-Grotesk-Semi-subset.woff2") format("woff2"),
+       url("Albra-Grotesk-Semi-subset.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Albra Grotesk';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Albra-Grotesk-Black-subset.woff2") format("woff2"),
+       url("Albra-Grotesk-Black-subset.woff") format("woff");
+}
