@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Albra';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Albra-Regular-subset.woff2") format("woff2"),
+       url("Albra-Regular-subset.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Albra';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("Albra-Semi-subset.woff2") format("woff2"),
+       url("Albra-Semi-subset.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Albra';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Albra-Bold-subset.woff2") format("woff2"),
+       url("Albra-Bold-subset.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Albra';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Albra-Black-subset.woff2") format("woff2"),
+       url("Albra-Black-subset.woff") format("woff");
+}
