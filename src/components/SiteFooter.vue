@@ -10,7 +10,7 @@ import Logo from './Logo.vue'
 export default {
     name: 'SiteFooter',
     components: {
-      Logo,
+        Logo,
     },
 }
 </script>

@@ -4,7 +4,7 @@
         <main role="main" class="w-full flex-auto">
             <slot />
         </main>
-        <SiteFooter/>
+        <SiteFooter />
     </div>
 </template>
 
@@ -13,10 +13,10 @@ import SiteNav from '@/components/SiteNav'
 import SiteFooter from '@/components/SiteFooter'
 
 export default {
-  components: {
-    SiteNav,
-    SiteFooter,
-  }
+    components: {
+        SiteNav,
+        SiteFooter,
+    },
 }
 </script>
 

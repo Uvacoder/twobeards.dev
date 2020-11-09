@@ -1,19 +1,20 @@
 <template>
-  <Layout>
-    <PageHeader header-text="Where" />
-  </Layout>
+    <Layout>
+        <FiveDoubleYewLayout header-text="where">
+        </FiveDoubleYewLayout>
+    </Layout>
 </template>
 
 <script>
-import PageHeader from '@/components/PageHeader'
+import FiveDoubleYewLayout from '@/components/FiveDoubleYewLayout'
 
 export default {
-  name: 'Where',
-  components: {
-    PageHeader,
-  },
-  metaInfo: {
-    title: 'Where Beards'
-  },
+    name: 'Where',
+    components: {
+        FiveDoubleYewLayout,
+    },
+    metaInfo: {
+        title: 'Where Beards',
+    },
 }
 </script>

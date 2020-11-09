@@ -1,19 +1,20 @@
 <template>
-  <Layout>
-    <PageHeader header-text="Why" />
-  </Layout>
+    <Layout>
+        <FiveDoubleYewLayout header-text="Why">
+        </FiveDoubleYewLayout>
+    </Layout>
 </template>
 
 <script>
-import PageHeader from '@/components/PageHeader'
+import FiveDoubleYewLayout from '@/components/FiveDoubleYewLayout'
 
 export default {
-  name: 'Why',
-  components: {
-    PageHeader,
-  },
-  metaInfo: {
-    title: 'Why Beards'
-  },
+    name: 'Why',
+    components: {
+        FiveDoubleYewLayout,
+    },
+    metaInfo: {
+        title: 'Why Beards',
+    },
 }
 </script>
