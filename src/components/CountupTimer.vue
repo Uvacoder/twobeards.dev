@@ -10,26 +10,27 @@ import format from 'date-fns/format'
 export default {
     name: 'CountupTimer',
     data() {
-      return {
-        time: '',
-        intervalTimer: null
-      }
+        return {
+            time: '',
+            intervalTimer: null,
+        }
     },
     created() {
-      this.intervalTimer = setInterval(() => {
-          this.setTime()
-      }, 1000)
+        this.setTime()
+        this.intervalTimer = setInterval(() => {
+            this.setTime()
+        }, 1000)
     },
     destroyed() {
-      this.stopTimer()
+        this.stopTimer()
     },
     methods: {
-      setTime() {
-        this.time = format(new Date(), 'PPPP pp')
-      },
-      stopTimer() {
-          clearInterval(this.intervalTimer)
-      }
+        setTime() {
+            this.time = format(new Date(), 'PPPP pp')
+        },
+        stopTimer() {
+            clearInterval(this.intervalTimer)
+        },
     },
 }
 </script>
