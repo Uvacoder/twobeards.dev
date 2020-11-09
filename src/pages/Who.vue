@@ -1,21 +1,20 @@
 <template>
     <Layout>
-        <div>
-            <PageHeader header-text="who" />
-        </div>
+        <FiveDoubleYewLayout header-text="who">
+        </FiveDoubleYewLayout>
     </Layout>
 </template>
 
 <script>
-import PageHeader from '@/components/PageHeader'
+import FiveDoubleYewLayout from '@/components/FiveDoubleYewLayout'
 
 export default {
-  name: 'Who',
-  components: {
-    PageHeader,
-  },
-  metaInfo: {
-    title: 'Who Beards'
-  },
+    name: 'Who',
+    components: {
+        FiveDoubleYewLayout,
+    },
+    metaInfo: {
+        title: 'Who Beards',
+    },
 }
 </script>
