@@ -6,28 +6,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function (Vue, { router, head, isClient }) {
     head.link.push({
         rel: "preload",
-        href: "/albra/Albra-Regular-subset.woff2",
-        as: "font",
-        crossorigin: "anonymous"
-    })
-
-    head.link.push({
-        rel: "preload",
-        href: "/albra/Albra-Semi-subset.woff2",
-        as: "font",
-        crossorigin: "anonymous"
-    })
-
-    head.link.push({
-        rel: "preload",
-        href: "/albra/Albra-Bold-subset.woff2",
-        as: "font",
-        crossorigin: "anonymous"
-    })
-
-    head.link.push({
-        rel: "preload",
-        href: "/albra/Albra-Black-subset.woff2",
+        href: "/albra/Albra-Variable.woff2",
         as: "font",
         crossorigin: "anonymous"
     })
