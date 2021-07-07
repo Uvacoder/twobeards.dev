@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
 
 function browserSyncReady(err, bs) {
     bs.addMiddleware("*", (req, res) => {
-        const content_404 = fs.readFileSync('_site/404.html');
+        const content_404 = fs.readFileSync('_site/404/index.html');
         // Provides the 404 content without redirect.
         res.write(content_404);
         // Add 404 http status code in request header.
