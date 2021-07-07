@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- https://github.com/joshbuchea/HEAD -->
+
+    <!-- Recommended -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Elements -->
+    <meta charset="utf-8">
+
+    <!-- Meta -->
+    <meta name="description" content="{{ metadata.description }}">
+    <meta name="generator" content="11ty">
+
+    <!-- Icons -->
+    <!-- https://favicon.io/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
+
+
+    <title>{{ title or metadata.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/site.css' | url }}">
+    <link rel="stylesheet" href="{{ '/albra/albra.css' | url }}">
+    <link rel="stylesheet" href="{{ '/albra/albra-grotesk.css' | url }}">
+</head>
+
+<body class="bg-white text-black w-full font-sans min-h-screen flex flex-col">
+
+    {% include "site-header.njk" %}
+    <main role="main" class="w-full flex-auto">
+        <div class="ml-4 md:ml-24 xl:ml-56 px-4">
+            {% if headerText %}
+                    {% include "page-header.njk" %}
+            {% endif %}
+            <div class="font-sans text-lg md:text-xl text-gray-800 leading-8 md:leading-8 max-w-3xl ml-2 md:ml-8">
+                {{ content | safe }}
+            </div>
+        </div>
+    </main>
+    {% include "site-footer.njk" %}
+
+</body>
+</html>

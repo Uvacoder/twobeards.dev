@@ -1,10 +1,6 @@
 module.exports = {
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true,
-        defaultLineHeights: true
-    },
-    purge: [],
+    purge: [ "./src/_includes/**/*.njk", "./src/*.html" ],
+    darkMode: false,
     theme: {
         extend: {
             colors: {
