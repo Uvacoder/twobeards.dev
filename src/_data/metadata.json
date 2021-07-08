@@ -1,0 +1,26 @@
+{
+    "title": "Two Beards",
+    "description": "Two Beards web development",
+    "navLinks": [
+        {
+            "text": "Who",
+            "path": "/who/"
+        },
+        {
+            "text": "What",
+            "path": "/what/"
+        },
+        {
+            "text": "When",
+            "path": "/when/"
+        },
+        {
+            "text": "Where",
+            "path": "/where/"
+        },
+        {
+            "text": "Why",
+            "path": "/why/"
+        }
+    ]
+}
