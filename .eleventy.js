@@ -1,7 +1,10 @@
 const fs = require("fs");
 const htmlmin = require("html-minifier");
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function (eleventyConfig) {
+
+    eleventyConfig.addPlugin(UpgradeHelper);
 
     if (process.env.ELEVENTY_PRODUCTION) {
         eleventyConfig.addTransform("htmlmin", htmlminTransform);

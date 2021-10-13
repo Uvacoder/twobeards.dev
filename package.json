@@ -25,7 +25,7 @@
     "url": "https://github.com/two-beards/twobeards.dev/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.0-beta.2",
     "autoprefixer": "^10.2.6",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.6",
@@ -37,5 +37,8 @@
     "postcss-nested": "^5.0.5",
     "rimraf": "^3.0.2",
     "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "@11ty/eleventy-upgrade-help": "^1.0.1"
   }
 }
